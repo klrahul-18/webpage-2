@@ -1,0 +1,226 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Top Head Section Start */
+.tophead {
+    background-color: rgb(20, 47, 36);
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tophead ul li {
+    color: #fff;
+    margin: 0px 4px;
+    display: inline-block;
+}
+
+.tophead ul li a {
+    color: #c2e4c6;
+    text-decoration: none;
+}
+
+/* Top Head Section End */
+/* Header Section Start */
+header {
+    width: 100%;
+    height: 100Px;
+    background-color: rgb(54, 112, 93);
+    color: #fff;
+    padding: 0px 100px;
+    line-height: 100px;
+}
+
+header h1,
+header h3 {
+    display: inline-block;
+}
+
+header h1 {
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+/* Header Section End */
+/* Navbar Section Start */
+.navbar {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(176, 230, 189);
+    padding: 0% 100px;
+    line-height: 40px;
+}
+
+.navbar ul li {
+    margin: 0px 4px;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 3px 3px;
+    color: #000;
+}
+
+.navbar ul li a:hover {
+    transition: 0.3s linear;
+    font-size: 105%;
+}
+
+/* Navbar Section End */
+/* Content Section Start */
+section {
+    width: 100%;
+    padding: 0% 100px;
+}
+
+section main {
+    width: 80%;
+    float: left;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+}
+
+section aside {
+    width: 20%;
+    float: right;
+    padding: 25px 15px;
+    background-color: #cbdbd7;
+    line-height: 20px;
+    padding-top: 30px;
+}
+
+aside ul li {
+    list-style: none;
+    font-weight: 600;
+}
+
+aside ul li ul li {
+    font-weight: normal;
+    padding-left: 20px;
+}
+
+/* Content Section End */
+/* content Section Start */
+.content {
+    padding-top: 15px;
+
+}
+.content1{
+    padding-top: 15px;
+    padding-left: 60px;
+}
+.content2{
+    padding-top: 15px;
+}
+.content3{
+    padding-top: 5px;
+}
+.content4 ul {
+    padding-top: 10px;
+    padding-left: 35px;
+}
+.content5 {
+    padding-left: 35px;
+    padding-top: 10px;
+}
+.content6{
+    padding-top: 10px;
+}
+.content6 ul{
+    padding-left: 40px;
+}
+/* content Section End */
+/* Footer Section Start */
+footer {
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    padding: 10px 100px;
+    background-color: rgb(9, 109, 79);
+    
+}
+
+footer .links {
+    float: left;
+    width: 40%;
+
+}
+
+footer .fllow {
+    float: left;
+    width: 40%;
+}
+
+footer .copy {
+    float: right;
+    width: 20%;
+    text-align: right;
+}
+
+/* Footer Section End */
+/* Media Queries Start */
+@media screen and (max-width:991px) {
+
+    .tophead,
+    footer {
+        height: auto;
+        padding: 10px;
+    }
+
+    .tophead ul li {
+        display: block;
+    }
+
+    header,
+    .navbar {
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+    section {
+        padding: 0px 0px 0px 10px;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    section main,
+    section aside {
+        float: none;
+        width: 100%;
+        padding: 0px;
+    }
+
+    footer .links,
+    footer .fllow,
+    footer .copy {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:575px) {
+    header {
+        line-height: normal;
+    }
+
+    header h1,
+    header h3 {
+        display: block;
+    }
+}
+
+/* media Queries End */
